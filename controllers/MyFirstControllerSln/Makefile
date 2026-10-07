@@ -40,11 +40,11 @@
 ### ---- C++ Sources ----
 ### if your program uses several C++ source files:
 ### CXX_SOURCES = my_plugin.cc my_clever_algo.cpp my_graphics.c++
-CFLAGS = -std=c++17 -Wall -Werror
 ###
 ### ---- Compilation options ----
 ### if special compilation flags are necessary:
 ### CFLAGS = -Wno-unused-result
+CFLAGS = -std=c++17 -Wall -Werror
 ###
 ### ---- Linked libraries ----
 ### if your program needs additional libraries:
